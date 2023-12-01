@@ -1,0 +1,71 @@
+@media (max-width:64em) {
+  html{
+    font-size: 50%;
+  }
+}
+@media (max-width:48em) {
+  html{
+    font-size: 45%;
+  }
+
+  h1{
+    font-size: 5.4rem;
+  }
+
+  .about-section-content {
+    
+    grid-template-columns: 0.8fr 1fr;
+    
+}
+
+  .lokesh-img{
+    width: 79%;
+  }
+}
+
+@media (max-width:43em) {
+  html{
+    font-size: 40%;
+  }
+}
+
+@media (max-width:39em) {
+  .about-section-content{
+    grid-template-columns: 1fr;
+    row-gap: 5.6rem;
+    justify-content: center;
+    padding: 3.2rem;
+  }
+
+  .lokesh-img{
+    width: 50%;
+    justify-self: center;
+  }
+
+  .skill-container{
+    grid-template-columns: 2fr 2fr  ;
+    max-width: 50rem;
+    row-gap: 4.4rem;
+  }
+
+ .rwo{
+  grid-column-start: -3;
+  grid-column-end: -1;
+ }
+}
+
+@media (max-width:27em) {
+  h1{
+    font-size: 4.4rem;
+  } 
+
+  .project-container {
+    grid-template-columns: 1fr;
+}
+
+.main-link {
+
+  gap: 1.4rem;
+}
+
+}
